@@ -49,7 +49,8 @@ def project(x,y,v):
     return res1, res2
 
 def plot(x,y):
-    plt.plot(x,y)
+    plt.scatter(x,y,color = 'red')
+    plt.plot(x,y,color = 'black')
     plt.show()
     #plt.close()
 
